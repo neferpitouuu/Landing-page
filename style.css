@@ -6,7 +6,11 @@ body
     font-family: 'Times New Roman', Times, serif;
     margin: 0%;
     padding: 0%;
+    flex-wrap: wrap;
 }
+
+
+
 
 .header
 {
@@ -42,6 +46,9 @@ a
     color: aliceblue;
     
 }
+
+
+
 .container
 {
     display: flex;
@@ -51,10 +58,10 @@ a
     
 }
 
-.background
+.section1
 {   
     display: flex;
-    background-image: url(images/bg2.jpeg);
+    background-image: url(images/bg1.jpeg);
     background-size: cover;
     height:85vh;
     justify-content: space-evenly;
@@ -102,3 +109,42 @@ a
 {
     background-color: #080000;
 }
+
+
+
+.section2
+{
+    text-align: center;
+    background-image: url(images/bg2.jpeg);
+
+    color:white;
+}
+
+.bands
+{
+    display: flex;
+
+    flex-shrink: 0;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align:center;
+    gap: 35px;
+    padding: 20px;
+    font-size:  16px; 
+
+   
+}
+
+.band
+{
+    padding: 30px;
+    background-color: rgb(43, 42, 42);
+    border-radius: 10px;
+}
+
+button
+{
+    padding: 5px;
+}
+
