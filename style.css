@@ -115,15 +115,14 @@ a
 .section2
 {
     text-align: center;
-    background-image: url(images/bg2.jpeg);
-
+    background-color: #050404;
     color:white;
 }
 
-.bands
+.bands,
+.albums
 {
     display: flex;
-
     flex-shrink: 0;
     justify-items: center;
     align-items: center;
@@ -146,5 +145,16 @@ a
 button
 {
     padding: 5px;
+}
+
+
+
+
+.section3
+{
+    display: column;
+    text-align: center;
+    background-color: #050404;
+    color: #d4d9e4;
 }
 
