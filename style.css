@@ -49,6 +49,7 @@ a
 
 
 
+
 .container
 {
     display: flex;
@@ -57,6 +58,7 @@ a
     align-items: center;
     
 }
+
 
 .section1
 {   
@@ -74,9 +76,9 @@ a
 
 }
 
-h1 {text-shadow:0px 0px 5px black,
-    0px 0px 20px black,
-    0px 0px 40px white; }
+h1 {
+    text-shadow: 2px 2px 4px black, 0 0 25px rgb(159, 159, 185), 0 0 5px rgb(68, 68, 80);
+}
 
 
 .card1
@@ -98,7 +100,7 @@ h1 {text-shadow:0px 0px 5px black,
     border-radius: 20px;
     background-color: #751616;
     margin-right: 35px;
-    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
 
 }
 
@@ -108,7 +110,7 @@ h1 {text-shadow:0px 0px 5px black,
     border: 1px solid ;
     border-radius: 15px;
     padding: 5px;
-    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .button:hover
@@ -137,8 +139,6 @@ h1 {text-shadow:0px 0px 5px black,
     gap: 35px;
     padding: 20px;
     font-size:  16px; 
-
-   
 }
 
 .band
@@ -151,9 +151,21 @@ h1 {text-shadow:0px 0px 5px black,
 button
 {
     padding: 5px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    color: #1A202C;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    line-height: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-flex;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  
 }
-
-
+ 
 
 
 .section3
@@ -163,6 +175,7 @@ button
     background-color: #050404;
     color: #d4d9e4;
 }
+
 
 
 .section4
@@ -187,6 +200,7 @@ button
 }
 
 
+
 .cta
 {
     background-color: #048cfc;
@@ -199,8 +213,8 @@ button
     margin: 50px;
     border-radius: 30px;
     border-top: 2px solid rgb(46, 42, 240);
-    border-left: 2px solid rgb(46, 42, 240) ;
-    
+    border-left: 2px solid rgb(46, 42, 240);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #signup
@@ -211,13 +225,15 @@ button
     border-left: 2px solid rgb(46, 42, 240);
     border-radius: 15px;
     padding: 5px 7px ;
-
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #signup:hover
 {
     background-color: #091329;
 }
+
+
 
 .footer
 {
@@ -227,4 +243,5 @@ button
     font-size: 15px;
     margin-top: 60px;
 }
+
 
