@@ -69,9 +69,15 @@ a
     align-items: center;
     gap:300px;
     padding: 20px;
+    margin-bottom: 40px;
     
 
 }
+
+h1 {text-shadow:0px 0px 5px black,
+    0px 0px 20px black,
+    0px 0px 40px white; }
+
 
 .card1
 {
@@ -156,5 +162,69 @@ button
     text-align: center;
     background-color: #050404;
     color: #d4d9e4;
+}
+
+
+.section4
+{
+    background-color: #d6d7d8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.quote
+{
+    padding: 50px 300px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.kurt
+{
+    text-align: end;
+    font-size: 25px;
+}
+
+
+.cta
+{
+    background-color: #048cfc;
+    display: flex;
+    color: rgb(246, 247, 248);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+    margin: 50px;
+    border-radius: 30px;
+    border-top: 2px solid rgb(46, 42, 240);
+    border-left: 2px solid rgb(46, 42, 240) ;
+    
+}
+
+#signup
+{
+    text-align: center;
+    background-color: #2b93fa;
+    border-top: 2px solid rgb(46, 42, 240);
+    border-left: 2px solid rgb(46, 42, 240);
+    border-radius: 15px;
+    padding: 5px 7px ;
+
+}
+
+#signup:hover
+{
+    background-color: #091329;
+}
+
+.footer
+{
+    background-color: #0c0909;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 60px;
 }
 
